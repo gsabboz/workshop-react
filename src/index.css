@@ -17,3 +17,12 @@ hr {
   margin-bottom: 15px;
   margin-top: 25px;
 }
+
+.option,
+.select {
+  width: 100px;
+  text-align: center;
+  border: 1px solid #a2a2a2;
+  cursor: pointer;
+  color: #ee0700;
+}

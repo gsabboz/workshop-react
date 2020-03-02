@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useContext} from 'react';
+import "./index.css"
 import SubmitForm from "./SubmitForm";
 import ToggleExample from "./ToggleExample";
 import CounterWithEffect from "./CounterWithEffect";
@@ -9,12 +10,7 @@ import SubmitForm2 from "./SubmitForm2";
 import Timer from "./Timer";
 import UserContext1 from "./UserContext1";
 import UserContext2 from "./UserContext2";
-
-
-//Use the useEffect hook to measure the size of the window when it changes.
-// Use the window.addEventListener('resize', handler) api
-
-
+import CompoundComponent1 from "./CompoundComponent1";
 
 const App = () => {
 
@@ -28,7 +24,8 @@ const App = () => {
             {/*<WindowMeasurements/>*/}
             {/*<WindowMeasurementsSeperateLogic/>*/}
             {/*<UserContext1/>*/}
-            <UserContext2/>
+            {/*<UserContext2/>*/}
+            <CompoundComponent1/>
         </div>
     )
 };
